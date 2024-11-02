@@ -1,73 +1,65 @@
 package mainapp
 
-import datahandler.updatedWord2Vec._
-import org.deeplearning4j.models.word2vec.Word2Vec
+import org.apache.spark.sql.SparkSession
+import datahandler.SlidingWindowWithPositionalEmbedding
+import org.apache.hadoop.fs.{FileSystem, Path}
 
-import java.io.File
-import scala.io.Source
 
-object MainApp { // Ensure this is defined as 'object'
+object MainApp {
 
   def main(args: Array[String]): Unit = {
 
-    val inputPath = "src/main/input/tokens"
-    def readAllFilesInDirectory(directoryPath: String): String = {
-      val directory = new File(directoryPath)
+    val spark = SparkSession.builder
+      .appName("SlidingWindowDataset")
+      .master("local[*]") // Use local mode with all available cores
+      .getOrCreate()
 
-      // Filter for files only and read each file's content
-      val allContent = directory.listFiles
-        .filter(_.isFile)
-        .map { file =>
-          val source = Source.fromFile(file)
-          try source.getLines().mkString("\n") // Join lines with newline
-          finally source.close()
-        }
-        .mkString("\n") // Join content from all files with newline
+    val inputPath = "src/main/correctedInput/final_input.csv"
+    val outputPath = "src/main/correctedInput/sliding_window_dataset"
+    val tempOutputPath = "src/main/correctedInput/temp_sliding_window_dataset"
+    val standardizedFileName = "sliding_window_dataset.csv"
+    val windowSize = 4
 
-      allContent
+    // Load data
+    val dataRDD = SlidingWindowWithPositionalEmbedding.loadData(spark, inputPath)
+
+    // Create sliding windows with positional embeddings
+    val slidingWindowsRDD = SlidingWindowWithPositionalEmbedding.createSlidingWindowsWithPositionalEmbedding(dataRDD, windowSize)
+
+    // Convert to DataFrame and save as a single file
+    import spark.implicits._
+    val slidingWindowDF = slidingWindowsRDD.toDF("inputWindow", "target")
+
+    // Coalesce to a single partition to output a single file
+    slidingWindowDF.coalesce(1)
+      .write
+      .option("header", "true")
+      .csv(tempOutputPath)
+
+    // Rename the output file to a standardized name
+    val fs = FileSystem.get(spark.sparkContext.hadoopConfiguration)
+    val tempDir = new Path(tempOutputPath)
+    val finalDir = new Path(outputPath)
+    val targetFile = new Path(s"$outputPath/$standardizedFileName")
+
+    // Delete the final directory if it already exists
+    if (fs.exists(finalDir)) {
+      fs.delete(finalDir, true)
     }
 
-    val contents = readAllFilesInDirectory(inputPath).split("\n").toList
-    val allSentences = loadSentences(contents)
-    //    println(allSentences)
-    val model: Word2Vec = trainModel(allSentences)
-    saveModel(model,"src/main/output/word2vecModel.bin")
+    // Create the final directory
+    fs.mkdirs(finalDir)
 
-//val directory = new File(inputPath)
-//println(directory)
+    // Move the CSV file from temporary directory to final directory with standardized name
+    val tempFile = fs.globStatus(new Path(s"$tempOutputPath/part-*.csv"))(0).getPath
+    fs.rename(tempFile, targetFile)
+
+    // Clean up temporary directory
+    fs.delete(tempDir, true)
+
+    println(s"Sliding window dataset saved to $targetFile")
+
+    // Stop the Spark session
+    spark.stop()
   }
-  // Paths to input and output files
-  //    val inputTokenization = "src/main/input/sharded_text.txt"
-  //    val outputTokenization = "src/main/output/updatedTokenization.txt"
-  //    val tokenizationFilePath = "src/main/input/TokenizationOutput"
-  //    val embeddingFilePath = "src/main/input/EmbeddingOutput"
-  //    val outputFilePath = "src/main/output/CombinedOutput.csv"
-  //
-  //    // Step 1: Load the data using DataCombiner
-  //    val tokenizationData = DataCombiner.loadTokenizationOutput(tokenizationFilePath)
-  //    val embeddingData = DataCombiner.loadEmbeddingOutput(embeddingFilePath)
-  //    // Step 2: Combine the data
-  //    val combinedData = DataCombiner.combineDatasets(tokenizationData, embeddingData)
-  //    // Step 3: Save the combined data
-  //    DataCombiner.saveCombinedData(outputFilePath, combinedData)
-  //    println(s"Data combined and saved to $outputFilePath")
-  //
-  //    val words = readWordsFromFile(inputTokenization)
-  //
-  //    // Process and save the output using updatedTokenizer
-  //    updatedTokenizer.processAndSave(words, outputTokenization)
-  //    println(s"Tokenization and frequency saved to $outputTokenization")
-  //
-  //  }
-  //
-  //  // Method to read words from the input file
-  //  def readWordsFromFile(filePath: String): List[String] = {
-  //    val bufferedSource = Source.fromFile(filePath)
-  //    try {
-  //      bufferedSource.getLines().toList.flatMap(_.split("\\s+")) // Split lines into words
-  //    } finally {
-  //      bufferedSource.close()
-  //    }
-  //  }
-
 }
