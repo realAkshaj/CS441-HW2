@@ -1,0 +1,1130 @@
+Word,Token,Frequency
+,,1
+robert,298 14979,6
+boulter,65 9826 399,24
+is,276,27
+an,270,20
+english,64215,1
+film,40489,4
+television,17004 6421,17
+and,427,79
+theatre,3086 14624,12
+actor,8428,2
+he,273,92
+had,26355,15
+a,64,77
+guest,50197,5
+starring,302 34843,3
+role,8716,12
+on,263,33
+the,3086,226
+series,26443,16
+bill,51424,5
+in,258,135
+this,851,20
+was,9844,57
+followed,34865 295,3
+by,2345,43
+play,2003,7
+herons,999 1808,2
+written,54815,6
+simon,82 15235,2
+stephens,2277 961 696,2
+which,13980,15
+performed,193028,6
+at,266,14
+royal,5972 280,2
+court,107569,5
+judge,163735,2
+john,106011,4
+deed,613 295,2
+landed,2117 295,2
+as,288,34
+craig,116255 343,2
+episode,63434,8
+teddy,83 60199,2
+s,82,25
+story,50482,2
+of,1440,121
+long,8431,3
+firm,8580,2
+starred,16204 1291,14
+alongside,67455 4341,5
+actors,37126,2
+mark,5037,4
+strong,9851,3
+derek,67 21940,2
+jacobi,77250 25245,2
+cast,5223,1
+productions,11634 2620,2
+philip,961 109447,2
+ridley,66452 4356,2
+mercury,1159 3264 88,3
+fur,21165,3
+drum,4541 394,2
+plymouth,4221 47939,2
+menier,2712 905,2
+chocolate,332 16017,2
+factory,43273,2
+london,75 8552,4
+directed,37135 295,8
+tiffany,83 84627,2
+ben,3128,5
+whishaw,2078 1109 1134,6
+shane,1116 1986,3
+zaza,89 10051,3
+harry,8665 1102,2
+kent,98632,2
+fraser,13035 259,3
+ayres,356 430,3
+sophie,82 101685,2
+stanton,10380 263,2
+dominic,7385 151610,2
+hall,58601,2
+citizenship,67982 51909 2504,4
+ravenhill,81 6260 45774,2
+appeared,15645 2343,4
+doctors,2408 14421,2
+production,47237,3
+how,8923,4
+to,935,82
+curse,134738,4
+josie,19949 396,2
+rourke,81 401 1272,2
+bush,65 1776,2
+borough,53895,2
+hammersmith,71 55184 68671,2
+fulham,1500 6595,2
+two,38397,10
+films,119266,2
+daylight,1635 6038,2
+robbery,23858 68063,2
+filmmaker,7009 4538 6114,2
+paris,796 276,4
+leonti,282 645 72,4
+donkey,22130 1898,3
+punch,79 4446,3
+olly,36246,2
+blackburn,18474 33750,2
+may,21065,4
+made,33322,2
+appearance,125034,2
+part,5815,4
+arc,18843,2
+waking,86 5016,2
+dead,69891,2
+survivors,26617 37442 914,2
+november,13802 1634,3
+recurring,9285 25908,3
+ten,1305,3
+episodes,136816,3
+casualty,14617 850 1206,2
+kieron,74 15694,2
+fletcher,69 118483,2
+mercenaries,7159 262 8526,2
+career,198069,3
+portrayed,2901 371 19630,4
+scott,2786 2441,2
+parry,796 1102,1
+safe,46891,1
+hands,103418,1
+review,37404,3
+performance,111932,2
+independent,521 66362,1
+sunday,82 8514,1
+described,4117 28426,1
+him,35563,7
+horribly,71 4761 8800,1
+menacing,2712 7997,1
+received,79385,3
+critical,57015,1
+reviews,77233,1
+herald,999 5956,1
+evening,28689 289,1
+standard,36672,2
+addem,964 347,1
+armitage,2218 22507,1
+political,58137 933,2
+expediency,8067 295 76835,1
+different,127306,3
+character,38245,5
+toby,83 30172,1
+steele,2277 5449,1
+connor,12394 267,1
+price,7629,1
+darren,67 27547,1
+it,278,13
+favorable,69 123037,1
+daily,87311,2
+telegraph,17004 7978,2
+acting,79900,1
+shatteringly,1116 4612 18258,1
+intense,491 1603,1
+with,6332,9
+wired,188429,1
+performances,46952 3528,1
+from,2845,17
+now,6201,4
+unrecognisable,373 70371 126160,1
+his,38520,79
+trevor,4086 10719,1
+nunn,77 5770,1
+hamlet,6595 1347,1
+guardian,191601,1
+noted,2878 295,4
+offer,36307,1
+tenderness,83 1644 2816,1
+amid,177486,1
+savagery,82 66525 875,1
+present,47421,2
+featured,87025,2
+playwrights,2003 83439 82,1
+titled,83 23992,2
+burn,33750,2
+chatroom,13503 3332,2
+interview,3082 1282,1
+fellow,69 7773,2
+identified,94542,2
+one,690,10
+favorite,88060,1
+co,1191,1
+stars,54412,1
+i,72,5
+loved,75 4959,1
+working,29334,1
+guy,70 3731,1
+called,82970,4
+who,29997,10
+triple,371 5335,1
+national,79438,1
+played,101138,1
+my,3825,3
+brother,14996 942,4
+jason,73 2350,1
+tyler,1206 1639,1
+something,64493,1
+ate,379,1
+william,21053 5866,3
+for,1938,22
+critic,171599,1
+charles,3257 1032,1
+spencer,1148 19726,1
+brings,1697 963,1
+touching,47206 289,1
+vulnerability,85 198112,1
+stage,37244,1
+named,55057,1
+sean,344 270,1
+tags,27989,1
+along,67455,2
+josh,73 12601,1
+quiet,60879,1
+hits,106054,1
+off,2864,1
+tammi,78855 3900,1
+wounds,86 4795,1
+jimmy,137484 3825,1
+dearden,613 7780,1
+neil,611 311,1
+emergency,347 124097,1
+physician,43524 15884,2
+applying,903 9542,1
+medical,111959,1
+fellowship,69 7773 8238,1
+commented,12606 295,1
+inherent,258 117353,1
+difficulties,67 102622 566,2
+portraying,2901 371 22983,1
+playing,86433,1
+doctor,61619,1
+strange,689 1052,1
+experience,90536,1
+pretending,12540 3258,1
+you,13320,7
+know,45616,5
+what,13347,9
+re,264,2
+talking,62811 289,1
+about,15551,6
+when,16228,6
+don,22130,1
+t,83,1
+very,1437,1
+bizarre,65 54933,1
+but,8293,16
+there,31813,3
+are,644,12
+advisers,324 2083 409,1
+set,977,1
+fantastic,47824 5620,1
+taking,180297,1
+through,32099,2
+procedures,191161 1609,1
+giving,140932,1
+confidence,188856,1
+stand,2861,1
+look,9001,1
+like,9995,4
+doing,96490,1
+filmography,40489 7587,1
+du,698,40
+fu,20331,36
+wade,86 973,1
+giles,70 2892,1
+tu,10191,2
+chinese,332 11604,16
+prominent,25652 30831,1
+poet,2519 292,14
+tang,83 516,3
+dynasty,68684 20936,2
+li,1307,6
+bai,65 1361,4
+po,2519,2
+frequently,17310 23313,3
+greatest,67530 376,2
+poets,2519 1719,3
+ambition,1855 868,1
+serve,12050,1
+country,23663,2
+successful,140743,1
+civil,191188,6
+servant,1850 493,2
+proved,160598,1
+unable,102564,1
+make,14172,2
+necessary,37515,1
+accommodations,359 11857 929,1
+life,19652,14
+whole,127718,2
+devastated,6751 629 780,1
+lushan,75 150585,2
+rebellion,19100 596 294,4
+last,6684,4
+years,75629,11
+were,17019,3
+time,4580,10
+almost,116393,4
+constant,60706,1
+unrest,373 7134,1
+although,63587,5
+initially,17493 423,1
+little,107268,1
+known,8520,4
+other,2141,6
+writers,84672,1
+works,23042,10
+came,136779,2
+be,1464,10
+hugely,192892 1151,1
+influential,258 32844 2972,1
+both,47163,2
+japanese,73 53412,1
+literary,120433 815,3
+culture,132158,1
+poetic,2519 17492,6
+writing,35352,2
+nearly,611 3489,1
+fifteen,69 366 17109,1
+hundred,59576 1291,1
+poems,2519 17308,21
+have,35723,14
+been,106700,11
+preserved,27252 15423,1
+over,2898,1
+ages,1461,1
+has,5429,6
+historian,65609 1200,3
+sage,137670,3
+critics,15345 1541,5
+while,7032,5
+range,20967,3
+work,1596,8
+allowed,32510,2
+introduced,151178,1
+western,71510,2
+readers,1293 409,2
+virgil,2920 62590,1
+horace,9803 675,1
+ovid,87509,1
+shakespeare,1116 49182,1
+milton,42335 1013,1
+burns,33750 82,1
+wordsworth,10020 23365,1
+branger,1697 5249,1
+hugo,71 29705,1
+or,267,9
+baudelaire,165589 2717 594,1
+traditional,167031,2
+criticism,15345 89445,2
+emphasized,347 95774 2110,1
+author,5524,1
+interpreting,153174 1744,1
+practice,78473,2
+burton,14286 1013,1
+watson,27961 1356,3
+attributes,27253,1
+close,8722,1
+links,26581,1
+that,14116,23
+thought,112245,4
+posits,1103 1348,1
+between,81749,2
+art,497,1
+morality,63985 9443,2
+since,21910,3
+many,74032,4
+feature,26269,1
+history,38238,5
+particularly,148588,1
+important,31371,1
+another,74224,1
+reason,42743,2
+hung,193844,4
+typically,176916,1
+concise,50621 1096,1
+omitting,310 6603,1
+context,3822,1
+might,147735,1
+relevant,264 37477,1
+informed,258 11144,1
+contemporary,542 107558,1
+could,58995,1
+assumed,456 41602,1
+modern,73148,2
+less,2695,2
+accurately,33206 3721,1
+we,854,5
+place,3243,2
+circumstances,156415 394 14435,1
+background,14364,1
+more,8229,7
+liable,85284,1
+imagine,321 30596,1
+incorrectly,131685 423,1
+result,2521,1
+will,21053,1
+either,105049,2
+misunderstand,18320 11093 2861,1
+poem,2519 347,4
+fail,37533,1
+understand,11093 2861,1
+altogether,3271 22396,1
+stephen,2277 22407,1
+owen,384 262,3
+suggests,95873 82,2
+third,60279,1
+factor,73174,1
+particular,5815 25350,1
+arguing,1170 23147,1
+variety,1465 4343,2
+required,12919,2
+consideration,59464 387,1
+rather,160689,3
+than,45336,6
+reductive,264 1132 585,1
+categorizations,66 1658 8846 929,1
+used,4943,2
+limited,23070,1
+early,86021,3
+most,5309,5
+comes,9304,1
+paternal,79 1005 19757,1
+grandfather,85533 39852,1
+shenyan,167701 10134,1
+politician,58137 15884,1
+during,153789,3
+reign,264 733,1
+empress,347 2020,1
+wu,17060,2
+born,26918,3
+exact,86898,1
+birthplace,56751 3243,2
+unknown,33936,1
+except,25035,1
+near,71992,1
+luoyang,5411 1107 516,3
+henan,5447 270,1
+province,63590,4
+gong,170757,1
+county,114962,1
+favourite,69 69275,2
+candidate,97486,1
+later,105901,5
+considered,59464 295,3
+himself,35563 1156,6
+belong,9880 705,1
+capital,128780,4
+city,17500,3
+chang,121111,5
+ancestral,3528 51209,1
+hometown,71 181976,1
+family,39832,6
+mother,40816,1
+died,67 1165,5
+shortly,16090 423,1
+after,13181,3
+partially,5815 43210,1
+raised,143866,1
+aunt,64 2202,1
+elder,77778,1
+young,151559,2
+also,32038,1
+three,47660,3
+half,52836,3
+brothers,14996 4272,2
+sister,82 1947,1
+whom,2078 310,1
+refers,1874 409,1
+never,74257,2
+mentions,59489,1
+stepmother,17509 40816,1
+son,1356,3
+minor,103796,2
+scholar,7253 11559,2
+official,62873,4
+youth,88 4656,1
+spent,195271,3
+education,70626,2
+future,48758,1
+study,101861,1
+memorisation,150419 6993,1
+confucian,16030 1734 1200,1
+classics,1444 1541,1
+philosophy,961 14820 56536,1
+poetry,2519 23993,7
+claimed,33324,1
+produced,11634 2050,2
+creditable,20082 562,1
+teens,411 696,1
+these,78079,3
+lost,93290,1
+travelled,94680 1084,1
+jiangsu,79828 20634,1
+zhejiang,89 153827,1
+area,7502,3
+earliest,830 34647,3
+surviving,26617 85 2690,2
+describing,4117 86306,1
+contest,147666,1
+date,1319,1
+end,419,1
+period,32867,6
+around,42235,8
+year,5682,6
+took,83 762,3
+service,4912,4
+exam,80102,3
+likely,30641,2
+failed,33814,3
+surprise,26617 7463,1
+centuries,1939 16572,1
+concludes,542 12639,1
+probably,114830,3
+because,53081,3
+prose,823 344,1
+style,8207,4
+too,23657,1
+dense,178031,2
+obscure,630 2786 627,1
+chou,332 283,4
+failure,63591,3
+cultivate,141748 978,1
+connections,127381,1
+blame,1751 444,1
+went,54031,1
+back,2205,1
+traveling,94680 289,1
+shandong,1116 152425,1
+hebei,273 36127,1
+father,39852,3
+would,83527,2
+enter,3547,1
+rank,30162,1
+given,82383,1
+up,817,2
+privilege,22344 67645,1
+favour,69 34710,1
+next,7311,3
+four,61745,1
+living,133032,2
+fulfilling,1500 69 9399,1
+duties,168038 566,1
+domestic,7385 14707,2
+affairs,2857 6498,1
+autumn,1828 1988,4
+met,3001,2
+first,7743,3
+formed,11144,1
+friendship,18924 8238,1
+david,67 24167,1
+describes,4117 128055,1
+significant,14677 59023,1
+formative,700 1799,1
+element,13565,1
+artistic,497 6207,1
+development,71620,1
+gave,79311,2
+example,18582,3
+reclusive,264 23591,1
+attracted,266 48446,1
+relationship,74709,1
+somewhat,25231 13347,1
+sided,82 6350,1
+however,155828,3
+some,25231,2
+younger,13320 63226,2
+already,89136,1
+star,16204,1
+twelve,83 155798,1
+only,7393,3
+direction,43278,1
+they,33574,4
+again,71072,4
+once,21986,1
+moved,76 4959,2
+attempt,100636,1
+resurrect,430 330 4104,1
+second,13901,2
+following,86422,3
+all,586,7
+candidates,66 38168,1
+prime,46441,1
+minister,49513,1
+apparently,82607 3874,2
+order,2143,1
+prevent,151873,1
+emergence,347 2347 1082,1
+possible,50714,1
+rivals,81 80357,1
+attempted,100636 295,2
+examinations,490 7893 929,1
+instead,152746,2
+petitioning,134449 289,1
+emperor,347 50974,6
+directly,37135 423,2
+married,8185 6089,1
+couple,79019 789,1
+five,97857,2
+children,10961,1
+sons,68104,3
+daughters,67 41744,1
+infancy,22226 8830,1
+began,36901 270,3
+lung,18922,1
+problems,823 50594,2
+asthma,288 404 809,1
+ailments,663 1626,2
+dogged,30146 5083,1
+rest,7134,1
+forced,43100,2
+move,16366,1
+due,48770,2
+turmoil,47616 114302,1
+famine,69 19980,2
+brought,65 10066,1
+massive,50019 585,1
+floods,69 5948 82,1
+region,8073,3
+appointment,75448,1
+registrar,41853 277,1
+right,2460,1
+commandant,10489 493,1
+office,45158,2
+crown,66 7352,1
+prince,638 4692,1
+palace,18413 675,1
+post,3786,3
+normal,14559,1
+times,32499,2
+least,96926,2
+start,5236,1
+even,28689,5
+before,29615,1
+begun,36901 373,1
+position,4504,2
+swept,82 854 555,1
+away,17550,2
+events,25303,1
+war,9126,1
+december,13895 1634,5
+not,2878,2
+completely,639 82659,1
+suppressed,124665 23406,1
+eight,177382,1
+caused,3743 4943,2
+enormous,262 551 784,1
+disruption,4220 24041,1
+society,92442 4343,1
+census,66 22296,2
+recorded,17860 295,1
+million,124427,2
+people,28963,2
+counted,5420 295,1
+just,5283,1
+remainder,264 40886,1
+having,119984,2
+displaced,4220 40927,1
+killed,74 7905,1
+led,1084,1
+largely,36878 1151,2
+itinerant,278 6010 493,1
+unsettled,373 53204 1084,1
+wars,167420,1
+associated,170725,1
+famines,130662 2028,1
+imperial,108176 563,2
+displeasure,4220 789 5450,1
+unhappiness,373 71 117779,1
+making,37891,2
+shan,79921,1
+saw,82 1134,1
+lives,75 2264,2
+neighbors,192470,1
+strangers,689 17646,1
+heard,136738,1
+hoped,71 23262,1
+feared,2302 2343,1
+progress,31705,1
+various,1465 1595,2
+campaigns,82420 82,2
+became,21385 444,2
+enduring,419 4788,1
+themes,95170,1
+learned,30773 295,1
+death,131344,1
+youngest,151559 376,2
+child,5573,1
+turned,82376,1
+suffering,82 191963,4
+others,30407,2
+dwelling,45201 4481,1
+upon,120938,1
+own,940,4
+misfortunes,18320 3980 12372,1
+wrote,86 10152,10
+brooding,14996 7148,1
+lived,75 3276,2
+if,366,1
+such,35662,2
+common,10269,1
+man,2309,1
+must,46036,1
+surely,105767 423,1
+rattled,81 2002 1084,1
+winds,193377,1
+xuanzong,111682 5341 705,1
+flee,69 10769,1
+abdicate,129401 8091,1
+safety,82 94361,1
+join,10891,1
+new,1389,1
+suzong,82 4083 705,1
+captured,55970 4367,1
+rebels,19100 1989,1
+taken,171218,1
+zongwu,89 705 17060,1
+baby,126705,1
+bear,60317,1
+contracted,26186 295,1
+malaria,9616 6477,1
+escaped,145127,1
+appointed,126265,3
+reminder,1935 5508,1
+rejoined,264 121969,2
+access,9687,1
+ceremonial,3308 10763 563,1
+conscientiousness,542 122801 1595 2816,1
+compelled,3697 36681,1
+try,1806,1
+use,1821,4
+trouble,371 1960,2
+protesting,823 18414,1
+removal,1935 25066,1
+friend,18924,4
+patron,8604 2963,1
+fang,24985,1
+guan,104845,1
+petty,9456 1206,1
+charge,16623,1
+arrested,277 7134 295,1
+pardoned,152051 26705,1
+june,73 2561,1
+granted,896 12007,1
+leave,47897,1
+visit,40982,1
+september,344 6531,1
+soon,84908,1
+returned,169620,2
+its,1348,3
+recapture,9285 18626,1
+government,142043,3
+forces,95249,2
+advice,324 2554,2
+continued,79803,1
+unappreciated,373 903 8757 780,1
+summer,163133,3
+demoted,16509 23990,1
+commissioner,97755 259,1
+huazhou,6916 1071 15211,1
+taste,178124,1
+am,313,1
+scream,82 71787,1
+madly,30273 423,1
+especially,58447,1
+bring,99011,1
+papers,59551,1
+pile,112229,1
+higher,186811,1
+desk,84302,1
+traditionally,82860 20300,2
+ascribed,288 28426,1
+believes,9880 43040,1
+frustration,1739 3073 387,1
+six,110489,1
+weeks,159699,1
+qinzhou,89418 57541,2
+tianshui,2832 616 138034,1
+gansu,70 97281,2
+where,4522,3
+sixty,4778 66448,1
+chengdu,93440 698,4
+briefly,14164 423,1
+stayed,302 19630,2
+tonggu,150166 5130,1
+departed,61996 295,1
+sichuan,82 703 9478,2
+hosted,6328 295,1
+local,5818,1
+prefect,62021 534,1
+pei,92575,1
+di,4091,1
+subsequently,3834 344 23313,1
+based,52911,2
+financial,140933,2
+sent,25043,1
+begging,36901 4512,1
+help,11283,1
+acquaintances,359 351 4649 3528,1
+relieved,6004 10212,1
+yan,10134,2
+former,55828,1
+colleague,1798 96059,1
+governor,2319 27777 267,2
+general,50500,3
+despite,4117 10446,1
+happiest,71 903 19116,1
+peaceful,105692 1500,2
+periods,32867 82,1
+depictions,27480 11649,1
+thatched,14116 3706,1
+hut,85738,1
+left,4530,1
+escape,27731,1
+advisor,89175,1
+involved,258 94254,1
+against,184190,1
+tibetan,83 526 34322,1
+empire,7175 594,1
+recovered,264 32827,1
+winter,170685,1
+spring,46953,2
+sailed,4578 3493,1
+down,4653,1
+yangtze,32598 83 1547,1
+intention,491 4005,1
+their,90587,1
+way,3499,1
+traveled,371 47610,1
+slowly,69974 423,1
+held,32869,1
+ill,492,1
+health,20281,1
+poor,179767,1
+eyesight,121294 583,1
+deafness,613 1553 2816,1
+old,1280,1
+age,477,1
+addition,198155,1
+previous,31068,2
+kuizhou,4159 482 15211,2
+baidicheng,3103 315 703 882,1
+chongqing,332 705 112981,1
+entrance,12792 766,1
+gorges,70 56525,1
+late,9459,3
+great,67530,1
+flowering,54730 289,1
+here,19992,1
+bo,1692,1
+maolin,809 42519,1
+supported,73817,1
+financially,140933 423,1
+employed,347 47230,1
+unofficial,373 62873,1
+secretary,37612 815,1
+march,134218,1
+journey,15146 4429,1
+got,14104,1
+far,19112,1
+hunan,71 22590,1
+tanzhou,83 5341 15211,1
+changsha,121111 20531,1
+th,404,1
+survived,26617 85 3276,1
+wife,93466,1
+remained,1935 3883,1
+descendant,17186 11380,1
+grandson,85533 1356,1
+requested,138016,1
+grave,103512,1
+inscription,1564 2087,1
+yuan,170464,2
+zhen,89 5447,2
+summarises,141249 277 5555,1
+concluding,542 16640,1
+filial,7009 563,1
+affectionate,2857 17901 379,1
+generous,65361 784,1
+faithful,113025 1500,1
+husband,36775 7982,1
+loyal,746 18069,1
+dutiful,168038 5166,1
+patriotic,8604 872 14682,1
+subject,24110,1
+below,101356,1
+retired,3431 3734,1
+wei,12520,1
+theme,20846,1
+parting,5815 289,1
+friends,57274,1
+often,119288,2
+officials,62873 82,1
+being,44382,1
+transferred,2623 14366,1
+provinces,823 10685 1622,1
+focused,159286,1
+sense,196499,1
+moral,76 16882,2
+engagement,882 3562,2
+technical,118407,3
+excellence,490 54035,2
+song,63251,2
+sh,1116,3
+historical,65609 933,1
+those,104647,1
+commenting,12606 289,1
+military,42335 10345,1
+tactics,83 146659,1
+successes,11887 268,1
+failures,37533 1609,1
+indirectly,521 1681 423,1
+effect,50663,1
+ordinary,110193,1
+china,85624,1
+notes,38705,1
+information,41825,1
+kind,28316,1
+seldom,82 3171 310,1
+found,26334,1
+officially,62873 423,1
+compiled,76115,1
+histories,58465 3279,1
+era,2060,1
+comments,30279,3
+emotion,142854,1
+calculation,5842 41845,1
+prescriptions,27252 22695,1
+paraphrased,796 403 2012 1882,1
+let,1347,2
+us,385,2
+selfish,1156 1109,1
+do,2408,2
+supposed,124665 6714,1
+views,6115,1
+impossible,321 50714,1
+disagree,4220 152061,1
+forcefully,13687 5203,1
+expressed,23787 295,1
+truisms,371 4560 1782,1
+enabled,42840,1
+installation,61330,1
+central,79937,1
+figure,27949,1
+epithet,1027 278 5785,1
+shng,1116 892,1
+counterpart,32128 5815,1
+philosophical,961 14820 6502 933,1
+confucius,16030 1734 15740,2
+wagons,64090 1808,1
+gives,70 2264,1
+voice,11894,1
+sufferings,82 3299 963,1
+conscript,542 4822,1
+soldier,96201 905,1
+army,199659,1
+clear,14994,1
+sighted,82 130166,1
+consciousness,542 39757 2816,1
+concerns,50621 70082,1
+continuously,64590 10701,1
+articulated,497 11742 780,1
+soldiers,96201 11012,1
+civilians,66 349 70693,1
+throughout,32099 468,1
+frequent,17310 13238,1
+references,84997,1
+can,6929,1
+give,91615,1
+impression,321 4521,1
+consuming,9673 37628,1
+solipsism,4399 3200 2367,1
+hawkes,38196 30048,2
+argues,1170 1406,1
+famous,69 37580,1
+compassion,3697 30135,2
+fact,53534,1
+includes,33456,1
+viewed,1282 295,1
+quite,148143,1
+objectively,3369 5861,1
+afterthought,13181 112245,1
+therefore,31813 1830,1
+lends,75 1847,1
+grandeur,896 4102 330,1
+wider,86 1970,1
+picture,46380,1
+comparing,639 64555,1
+slightly,4500 128373,1
+comical,639 933,1
+triviality,371 53165 536,1
+broadening,65 12086 7299,1
+scope,8418,1
+devoted,6751 23990,1
+topics,125920,1
+previously,31068 423,1
+unsuitable,4290 133208,1
+treatment,83 49108,1
+zhang,11988 516,1
+jie,82961,1
+everything,141354,1
+world,24169,1
+extensively,779 130352,1
+subjects,155475,1
+calligraphy,9925 141802,1
+paintings,44758 963,2
+animals,158084,1
+notable,2878 562,1
+above,89414,1
+term,8044,2
+jdchng,41882 332 892,1
+complete,26232,1
+symphony,82 40239 4490,1
+reference,32946,1
+mencius,76 1038 15740,1
+description,9186,1
+note,19320,1
+breadth,78982 404,1
+achievement,168831,1
+predecessor,2235 54010 267,1
+united,373 2106,1
+traits,125698,1
+men,2712,1
+displayed,9992 295,1
+singly,82 18258,1
+mastered,22522 295,1
+forms,15870,2
+says,82 1044,1
+every,50492,1
+form,700,5
+outstanding,468 12138,2
+advances,17312 3528,1
+contributed,542 6050,1
+examples,120832,1
+furthermore,69 5379 8229,1
+wide,11147,1
+registers,7030 82,1
+direct,37135,1
+colloquial,1798 746 178163,1
+allusive,586 29930,1
+self,1156,1
+consciously,542 136442,1
+manifested,91498 295,1
+within,98556,1
+individual,103076,1
+identifies,2477 18573,1
+rapid,105316,1
+stylistic,52848 2641 291,1
+thematic,3086 39560,1
+shifts,1116 13870,1
+enable,25619,1
+represent,65215,1
+facets,34429 1719,1
+situation,82 114100,1
+uses,5977,1
+juxtaposition,4734 160047 10071,1
+major,44670,1
+analytical,15134 122728,1
+tool,17952,1
+her,999,1
+poetics,2519 42157,1
+painting,168134,2
+any,1252,2
+writer,25263,1
+eighteen,68 1251 17109,1
+alone,49370,1
+seemingly,344 347 18258,1
+negative,46069,1
+commentary,12606 815,1
+prized,638 2110,1
+horse,105889,1
+han,9737,1
+gan,5976,1
+ignited,733 2106,1
+controversy,38805 3674 88,1
+persisted,92558 295,1
+day,1635,1
+tenor,1305 267,1
+changed,31851,1
+developed,88886 295,1
+adapted,119036 295,1
+surroundings,26617 1964 963,1
+chameleon,332 172032,1
+according,149330,1
+relatively,6004 11594,1
+derivative,761 89680,1
+courtly,107569 423,1
+into,14020,1
+grim,153793,1
+simplicity,171139 122465,1
+mirrors,25098 49308,1
+desert,4117 805,1
+landscape,2117 14395,1
+light,6038,1
+finely,6994 1151,1
+observed,93330 295,1
+density,158181,1
+power,22295,1
+vision,6421,1
+best,17844,2
+lshi,75 33444,2
+type,2493,1
+strict,86800,1
+constraints,151897,1
+content,3252,2
+thirds,60279 82,1
+extant,779 493,1
+generally,65361 2146,1
+leading,51812,1
+exponent,490 1758,1
+parallelisms,118027 25290,1
+add,964,1
+expressive,23787 585,1
+mere,65487,1
+restrictions,39475 11649,1
+amazing,313 52371,1
+able,562,1
+so,786,2
+immensely,6649 696 1151,1
+stylized,167062 2110,1
+natural,45497,1
+manner,76 6237,1
