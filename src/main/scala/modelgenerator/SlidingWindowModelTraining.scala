@@ -20,7 +20,7 @@ import java.io.File
 
 object SlidingWindowModelTraining {
 
-  def main(args: Array[String]): Unit = {
+  def run(args: Array[String]): Unit = {
 
     // Set up Spark context
     val conf = new SparkConf().setAppName("SlidingWindowModelTraining").setMaster("local[*]")
