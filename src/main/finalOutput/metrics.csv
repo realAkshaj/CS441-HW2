@@ -1,0 +1,6 @@
+Epoch,Iteration,Training Loss,Gradient Norm,Memory Usage (MB),Learning Rate,Duration (ms)
+1,-1,0.0,-1,186,0.001,1442
+2,-1,0.0,-1,210,0.001,540
+3,-1,0.0,-1,301,0.001,455
+4,-1,0.0,-1,355,0.001,441
+5,-1,0.0,-1,140,0.001,376
