@@ -3,36 +3,57 @@ package mainapp
 import org.apache.spark.sql.SparkSession
 import datahandler.SlidingWindowWithPositionalEmbedding
 import org.apache.hadoop.fs.{FileSystem, Path}
-import org.deeplearning4j.nn.multilayer.MultiLayerNetwork
-import org.deeplearning4j.optimize.listeners.ScoreIterationListener
-import org.nd4j.linalg.dataset.DataSet
-import org.deeplearning4j.util.ModelSerializer
-import org.apache.spark.rdd.RDD
-import org.nd4j.linalg.factory.Nd4j
-import java.io.File
 import modelgenerator.SlidingWindowModelTraining
+import org.apache.spark.SparkConf
 
 object MainApp {
 
   def main(args: Array[String]): Unit = {
 
-    // Initialize Spark session
-    val spark = SparkSession.builder
-      .appName("SlidingWindowDataset")
-      .master("local[*]") // Use local mode with all available cores
-      .getOrCreate()
+    // Determine the environment: "local", "spark", or "aws" (default to "local" if no argument is provided)
+    val environment = if (args.isEmpty) "local" else args(0).toLowerCase
+    val (masterUrl, appName) = environment match {
+      case "spark" => ("spark://localhost:7077", "CS441-HW2-Spark")
+      case "aws" => ("yarn", "CS441-HW2-AWS") // AWS EMR uses YARN by default
+      case _ => ("local[*]", "CS441-HW2-Local")
+    }
 
-    // Paths and parameters
-    val inputPath = "src/main/correctedInput/final_input.csv"
-    val outputPath = "src/main/correctedInput/sliding_window_dataset"
-    val tempOutputPath = "src/main/correctedInput/temp_sliding_window_dataset"
+    // Initialize Spark configuration and session
+    val conf = new SparkConf().setAppName(appName).setMaster(masterUrl)
+    val spark = SparkSession.builder.config(conf).getOrCreate()
+    println(s"Running on $environment environment")
+
+    // Define input and output paths based on environment
+    val (inputPath, outputPath, tempOutputPath) = environment match {
+      case "aws" =>
+        (
+          "hdfs:///user/akshaj/input/final_input.csv",  // HDFS for input
+          "hdfs:///user/akshaj/output/sliding_window_dataset",   // HDFS for output
+          "hdfs:///user/akshaj/output/temp_sliding_window_dataset" // HDFS for temporary output
+        )
+      case "spark" =>
+        (
+          "hdfs://localhost:9000/user/aksha/input/final_input.csv", // HDFS path for standalone Spark
+          "hdfs://localhost:9000/output/user/aksha/sliding_window_dataset",
+          "hdfs://localhost:9000/output/user/aksha/temp_sliding_window_dataset"
+        )
+      case _ =>
+        (
+          "src/main/correctedInput/final_input.csv",
+          "src/main/correctedInput/sliding_window_dataset",
+          "src/main/correctedInput/temp_sliding_window_dataset"
+        )
+    }
+
+    // Set standardized output file name
     val standardizedFileName = "sliding_window_dataset.csv"
-    val windowSize = 4
+    val windowSize = 5
 
     // Load data
     val dataRDD = SlidingWindowWithPositionalEmbedding.loadData(spark, inputPath)
     val slidingWindowsRDD = SlidingWindowWithPositionalEmbedding.createSlidingWindowsWithPositionalEmbedding(dataRDD, windowSize)
 
+    // Convert to DataFrame and write output
     import spark.implicits._
     val slidingWindowDF = slidingWindowsRDD.toDF("inputWindow", "target")
 
@@ -47,9 +68,8 @@ object MainApp {
     val finalDir = new Path(outputPath)
     val targetFile = new Path(s"$outputPath/$standardizedFileName")
 
-    if (fs.exists(finalDir)) {
-      fs.delete(finalDir, true)
-    }
+    // Clean up and rename
+    if (fs.exists(finalDir)) fs.delete(finalDir, true)
     fs.mkdirs(finalDir)
     val tempFile = fs.globStatus(new Path(s"$tempOutputPath/part-*.csv"))(0).getPath
     fs.rename(tempFile, targetFile)
@@ -60,6 +80,8 @@ object MainApp {
     // Stop the Spark session
     spark.stop()
 
-    SlidingWindowModelTraining.run(Array())  //code to run the SlidingWindow Model Generator
+    // Run the model training
+//    val datapath = ""
+    SlidingWindowModelTraining.run(Array())  // This calls the model training class
   }
 }
