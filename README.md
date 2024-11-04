@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This project focuses on creating a MapReduce program in Hadoop and deploying it to AWS Elastic MapReduce (EMR). The objective is to split the initial tasks of building a Large Language Model(LLM) to separate Mapper Reducers. I have implemented Mapper Reducers for Tokenization, Embedding, and CosineSimilarity Calculations. At the end of all this will be a CSV file which will contain the data/output of all the Map Reduce Tasks.
+Implementation of Positional Embeddings and training a model based on those embeddings using Spark's parallelization capabilities
 
 Video Link: https://youtu.be/I5n2vQx3BoI
 The video explains the deployment of Hadoop application in the AWS EMR Cluster and the project structure
@@ -53,11 +53,14 @@ From the dropdown, choose JAR manifest or classpath file:
 
 Classpath file is the most common and typically recommended option. It allows IntelliJ to store the classpath in a temporary file and reference it rather than passing it directly to the command line.
 JAR manifest works by embedding the classpath inside the JAR manifest (this might require additional configuration if you're building a JAR).
+
 Click Apply and then OK.
 
 Re-run your application.   
 
 4) Run MainApp.
+
+5) You can pass arguments to make the code compatible with other frameworks - pass nothing to run on local, "aws" for aws and "spark" for spark
 
 
 
