@@ -24,7 +24,8 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % "3.5.0",
   "org.apache.spark" %% "spark-sql" % "3.5.0",
   "org.apache.spark" %% "spark-mllib" % "3.5.0",
-  "org.deeplearning4j" % "dl4j-spark_2.12" % "1.0.0-M2.1"
+  "org.deeplearning4j" % "dl4j-spark_2.12" % "1.0.0-M2.1",
+  "org.scalatest" %% "scalatest" % "3.2.14"
 
 )
 
