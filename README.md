@@ -9,7 +9,7 @@
 Implementation of Positional Embeddings and training a model based on those embeddings using Spark's parallelization capabilities
 
 Video Link: https://youtu.be/I5n2vQx3BoI
-The video explains the deployment of Hadoop application in the AWS EMR Cluster and the project structure
+The video explains the deployment of Spark application in the AWS EMR Cluster and the project structure
 
 ### Environment
 ```
